@@ -1,0 +1,94 @@
+/* Default Styles */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+/* testimonial section styles */
+.container {
+    max-width: 1240px;
+    margin: 120px auto;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.reviewers img.star-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-size: 36px;
+    color: #18181B;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #52525A;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+
+.reviewers li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    color: #52525A;
+    font-size: 14px;
+}
+
+.companies {
+    position: relative;
+}
+
+.google {
+    position: absolute;
+    right: 0;
+}
+
+.meta{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card {
+    width: 50%;
+    padding: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.card .company-title {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card img.company-logo {
+    width: 80px;
+}
+
+.author-title {
+    color: #18181B;
+    margin: 8px 0;
+}
+
+.author-description {
+    color: #52525A;
+    font-size: 14px;
+}
