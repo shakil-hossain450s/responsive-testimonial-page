@@ -67,7 +67,7 @@
 }
 
 .card {
-    width: 50%;
+    width: 250px;
     padding: 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 15px;
@@ -91,4 +91,37 @@
 .author-description {
     color: #52525A;
     font-size: 14px;
+}
+
+/* Mobile Device Responsive */
+@media screen and (max-width: 640px) {
+    .container{
+        margin: 20px auto;
+    }
+    .testimonial {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .companies{
+        height: 400px;
+        position: relative;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .google {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .meta{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 }
